@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Cadastro de Cliente</h1>
+    <hr>
+    <form action="#" method="post">
+        <p>Escolha a cor do site...</p>
+        <input type="radio" name="cor-site" id="cor-azul">
+        <label for="cor-azul">Azul</label>
+        <input type="radio" name="cor-site" id="cor-ciano">
+        <label for="cor-ciano">Ciano</label>
+        <input type="radio" name="cor-site" id="cor-vermelho">
+        <label for="cor-vermelho">Vermelho</label>
+        <input type="radio" name="cor-site" id="cor-amarelo">
+        <label for="cor-amarelo">Amarelo</label>
+        <input type="radio" name="cor-site" id="cor-preto">
+        <label for="cor-preto">Preto</label>
+        <input type="radio" name="cor-site" id="cor-verde">
+        <label for="cor-verde">Verde</label>
+        <input type="radio" name="cor-site" id="cor-padrao">
+        <label for="cor-padrao">Padrão</label>
+        <hr>
+        <label for="nome">Qual o seu nome?</label>
+        <input type="text" name="nome" id="nome"> <br>
+        <label for="email">Qual o seu E-mail?</label>
+        <input type="email" name="email" id="email"> <br>
+        <label for="ano-nasc">Respectivo Ano de seu nascimento?</label>
+        <input type="number" name="ano-nasc" id="ano-nasc">
+        <input type="number" name="anos-idade" id="anos-idade">
+        <label for="anos-idade">Anos</label> <br>
+        <label for="ender">Qual o seu Endereço:</label>
+        <input type="text" name="ender" id="ender"> <br>
+        <label for="cep">Qual o seu CEP?</label>
+        <input type="text" name="cep" id="cep">
+        <hr>
+        <p>Você gostou da minha Home Page?</p>
+        <input type="radio" name="home-page" id="sim">
+        <label for="sim">Sim</label>
+        <input type="radio" name="home-page" id="maisoumenos">
+        <label for="maisoumenos">Mais ou Menos</label>
+        <input type="radio" name="home-page" id="nem">
+        <label for="nem">Nem um pouco</label>
+        <hr>
+        <label for="estado">Qual é o seu estado</label>
+        <select name="estado" id="estado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+        </select> <br><br>
+        <label for="parte">Qual a parte so site que você mais gostou?</label> <br> 
+        <select name="parte" id="parte" size="7">
+            <option value="#">Interface</option>
+            <option value="#">Imagens, som, cores, comandos básicos, etc.</option>
+            <option value="#">Frames</option>
+            <option value="#">Ferramentas</option>
+            <option value="#">Formulários</option>
+            <option value="#">CGI</option>
+            <option value="#">JAVA</option>
+        </select>
+        <br> <br>
+        <label for="feedback">Deixe seus comentários sobre a minha Home Page:</label>
+        <br>
+        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+        <br>
+        <p>Qual é o navegador que você está mais acostumado a utilizar?</p>
+        <input type="checkbox" name="#" id="netscape">
+        <label for="netscape">Netscape</label>
+        <input type="checkbox" name="#" id="explorer">
+        <label for="explorer">Internet Explorer</label>
+        <input type="checkbox" name="#" id="opera">
+        <label for="opera">Opera</label>
+        <input type="checkbox" name="#" id="hot">
+        <label for="hot">Hot Java</label>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar Dados">
+    </form>
+</body>
+</html>
